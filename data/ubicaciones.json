@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "repartidorId": 1,
+    "pedidoId": 20,
+    "lat": 4.667079,
+    "lng": -74.052985,
+    "fechaHora": "2026-11-07T07:27:00"
+  },
+  {
+    "id": 2,
+    "repartidorId": 1,
+    "pedidoId": 17,
+    "lat": 4.639326,
+    "lng": -74.104953,
+    "fechaHora": "2026-11-06T11:58:00"
+  },
+  {
+    "id": 3,
+    "repartidorId": 2,
+    "pedidoId": 14,
+    "lat": 4.612917,
+    "lng": -74.111734,
+    "fechaHora": "2026-11-05T12:12:00"
+  },
+  {
+    "id": 4,
+    "repartidorId": 3,
+    "pedidoId": 13,
+    "lat": 4.646124,
+    "lng": -74.061473,
+    "fechaHora": "2026-11-05T07:58:00"
+  },
+  {
+    "id": 5,
+    "repartidorId": 4,
+    "pedidoId": 11,
+    "lat": 4.711771,
+    "lng": -74.03701,
+    "fechaHora": "2026-11-04T17:53:00"
+  },
+  {
+    "id": 6,
+    "repartidorId": 2,
+    "pedidoId": 10,
+    "lat": 4.627887,
+    "lng": -74.090121,
+    "fechaHora": "2026-11-04T08:00:00"
+  },
+  {
+    "id": 7,
+    "repartidorId": 2,
+    "pedidoId": 9,
+    "lat": 4.639401,
+    "lng": -74.069723,
+    "fechaHora": "2026-11-04T03:40:00"
+  },
+  {
+    "id": 8,
+    "repartidorId": 3,
+    "pedidoId": 6,
+    "lat": 4.633917,
+    "lng": -74.123462,
+    "fechaHora": "2026-11-03T05:48:00"
+  },
+  {
+    "id": 9,
+    "repartidorId": 1,
+    "pedidoId": 4,
+    "lat": 4.62275,
+    "lng": -74.073038,
+    "fechaHora": "2026-11-02T15:12:00"
+  },
+  {
+    "id": 10,
+    "repartidorId": 2,
+    "pedidoId": 2,
+    "lat": 4.612877,
+    "lng": -74.110285,
+    "fechaHora": "2026-11-02T03:43:00"
+  },
+  {
+    "id": 11,
+    "repartidorId": 4,
+    "pedidoId": 1,
+    "lat": 4.64925,
+    "lng": -74.063591,
+    "fechaHora": "2026-11-01T19:53:00"
+  }
+]

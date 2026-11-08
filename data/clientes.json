@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nombre": "Carlos Rojas",
+    "documento": "79123456",
+    "telefono": "3105551234",
+    "email": "carlos.rojas@correo.com"
+  },
+  {
+    "id": 2,
+    "nombre": "Ferretería El Tornillo",
+    "documento": "900123456",
+    "telefono": "6013334455",
+    "email": "ventas@eltornillo.com"
+  },
+  {
+    "id": 3,
+    "nombre": "María Díaz",
+    "documento": "52333444",
+    "telefono": "3116667788",
+    "email": "maria.diaz@correo.com"
+  },
+  {
+    "id": 4,
+    "nombre": "Tienda Andina",
+    "documento": "901555222",
+    "telefono": "6014445566",
+    "email": "pedidos@tiendaandina.co"
+  },
+  {
+    "id": 5,
+    "nombre": "Pedro Suárez",
+    "documento": "1032456789",
+    "telefono": "3017894561",
+    "email": "pedro.suarez@correo.com"
+  },
+  {
+    "id": 6,
+    "nombre": "Oficina Nova",
+    "documento": "900777888",
+    "telefono": "6017771122",
+    "email": "admin@oficinanova.co"
+  },
+  {
+    "id": 7,
+    "nombre": "Daniela Castro",
+    "documento": "1019876543",
+    "telefono": "3182223344",
+    "email": "dani.castro@correo.com"
+  },
+  {
+    "id": 8,
+    "nombre": "Librería Central",
+    "documento": "860111222",
+    "telefono": "6012228899",
+    "email": "contacto@libreriacentral.co"
+  }
+]

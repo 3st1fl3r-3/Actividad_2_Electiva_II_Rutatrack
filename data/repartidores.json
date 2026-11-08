@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "usuarioId": 3,
+    "nombre": "Juan Pérez",
+    "documento": "1020345678",
+    "telefono": "3124567890",
+    "vehiculo": "Moto",
+    "placa": "ABC-12F",
+    "capacidadMax": 3,
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "usuarioId": 4,
+    "nombre": "Ana Torres",
+    "documento": "52987111",
+    "telefono": "3157778899",
+    "vehiculo": "Furgón",
+    "placa": "KLM-908",
+    "capacidadMax": 5,
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "usuarioId": 5,
+    "nombre": "Luis Mora",
+    "documento": "80456222",
+    "telefono": "3001112233",
+    "vehiculo": "Moto",
+    "placa": "XYZ-45F",
+    "capacidadMax": 3,
+    "disponible": true
+  },
+  {
+    "id": 4,
+    "usuarioId": 6,
+    "nombre": "Sofía Ríos",
+    "documento": "1014777090",
+    "telefono": "3209998877",
+    "vehiculo": "Bicicleta",
+    "placa": "",
+    "capacidadMax": 2,
+    "disponible": true
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Administrador General",
+    "email": "admin@rutatrack.com",
+    "password": "Admin123",
+    "rol": "ADMINISTRADOR",
+    "activo": true
+  },
+  {
+    "id": 2,
+    "nombre": "Laura Gómez",
+    "email": "operador@rutatrack.com",
+    "password": "Operador123",
+    "rol": "OPERADOR",
+    "activo": true
+  },
+  {
+    "id": 3,
+    "nombre": "Juan Pérez",
+    "email": "juan@rutatrack.com",
+    "password": "Repartidor123",
+    "rol": "REPARTIDOR",
+    "activo": true
+  },
+  {
+    "id": 4,
+    "nombre": "Ana Torres",
+    "email": "ana@rutatrack.com",
+    "password": "Repartidor123",
+    "rol": "REPARTIDOR",
+    "activo": true
+  },
+  {
+    "id": 5,
+    "nombre": "Luis Mora",
+    "email": "luis@rutatrack.com",
+    "password": "Repartidor123",
+    "rol": "REPARTIDOR",
+    "activo": true
+  },
+  {
+    "id": 6,
+    "nombre": "Sofía Ríos",
+    "email": "sofia@rutatrack.com",
+    "password": "Repartidor123",
+    "rol": "REPARTIDOR",
+    "activo": true
+  }
+]

@@ -1,0 +1,822 @@
+[
+  {
+    "id": 1,
+    "pedidoId": 1,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-01T18:31:00"
+  },
+  {
+    "id": 2,
+    "pedidoId": 1,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Sofía Ríos",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-01T19:00:00"
+  },
+  {
+    "id": 3,
+    "pedidoId": 1,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-01T19:00:00"
+  },
+  {
+    "id": 4,
+    "pedidoId": 1,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "ASIGNADO",
+    "estadoNuevo": "EN_TRANSITO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 6,
+    "fechaHora": "2026-11-01T19:30:00"
+  },
+  {
+    "id": 5,
+    "pedidoId": 1,
+    "tipo": "UBICACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Ubicación reportada (4.64925, -74.063591)",
+    "usuarioId": 6,
+    "fechaHora": "2026-11-01T19:53:00"
+  },
+  {
+    "id": 6,
+    "pedidoId": 1,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "EN_TRANSITO",
+    "estadoNuevo": "ENTREGADO",
+    "descripcion": "Pedido entregado",
+    "usuarioId": 6,
+    "fechaHora": "2026-11-01T20:27:00"
+  },
+  {
+    "id": 7,
+    "pedidoId": 2,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-02T01:57:00"
+  },
+  {
+    "id": 8,
+    "pedidoId": 2,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Ana Torres",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-02T02:24:00"
+  },
+  {
+    "id": 9,
+    "pedidoId": 2,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-02T02:24:00"
+  },
+  {
+    "id": 10,
+    "pedidoId": 2,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "ASIGNADO",
+    "estadoNuevo": "EN_TRANSITO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 4,
+    "fechaHora": "2026-11-02T03:09:00"
+  },
+  {
+    "id": 11,
+    "pedidoId": 2,
+    "tipo": "UBICACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Ubicación reportada (4.612877, -74.110285)",
+    "usuarioId": 4,
+    "fechaHora": "2026-11-02T03:43:00"
+  },
+  {
+    "id": 12,
+    "pedidoId": 2,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "EN_TRANSITO",
+    "estadoNuevo": "ENTREGADO",
+    "descripcion": "Pedido entregado",
+    "usuarioId": 4,
+    "fechaHora": "2026-11-02T04:19:00"
+  },
+  {
+    "id": 13,
+    "pedidoId": 3,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-02T05:16:00"
+  },
+  {
+    "id": 14,
+    "pedidoId": 4,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-02T13:22:00"
+  },
+  {
+    "id": 15,
+    "pedidoId": 4,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Juan Pérez",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-02T13:55:00"
+  },
+  {
+    "id": 16,
+    "pedidoId": 4,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-02T13:55:00"
+  },
+  {
+    "id": 17,
+    "pedidoId": 4,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "ASIGNADO",
+    "estadoNuevo": "EN_TRANSITO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 3,
+    "fechaHora": "2026-11-02T14:38:00"
+  },
+  {
+    "id": 18,
+    "pedidoId": 4,
+    "tipo": "UBICACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Ubicación reportada (4.62275, -74.073038)",
+    "usuarioId": 3,
+    "fechaHora": "2026-11-02T15:12:00"
+  },
+  {
+    "id": 19,
+    "pedidoId": 4,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "EN_TRANSITO",
+    "estadoNuevo": "ENTREGADO",
+    "descripcion": "Pedido entregado",
+    "usuarioId": 3,
+    "fechaHora": "2026-11-02T15:45:00"
+  },
+  {
+    "id": 20,
+    "pedidoId": 5,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-02T20:16:00"
+  },
+  {
+    "id": 21,
+    "pedidoId": 5,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "CANCELADO",
+    "descripcion": "Cancelado por solicitud del cliente",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-02T20:56:00"
+  },
+  {
+    "id": 22,
+    "pedidoId": 6,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-03T04:29:00"
+  },
+  {
+    "id": 23,
+    "pedidoId": 6,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Luis Mora",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-03T05:00:00"
+  },
+  {
+    "id": 24,
+    "pedidoId": 6,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-03T05:00:00"
+  },
+  {
+    "id": 25,
+    "pedidoId": 6,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "ASIGNADO",
+    "estadoNuevo": "EN_TRANSITO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 5,
+    "fechaHora": "2026-11-03T05:26:00"
+  },
+  {
+    "id": 26,
+    "pedidoId": 6,
+    "tipo": "UBICACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Ubicación reportada (4.633917, -74.123462)",
+    "usuarioId": 5,
+    "fechaHora": "2026-11-03T05:48:00"
+  },
+  {
+    "id": 27,
+    "pedidoId": 6,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "EN_TRANSITO",
+    "estadoNuevo": "ENTREGADO",
+    "descripcion": "Pedido entregado",
+    "usuarioId": 5,
+    "fechaHora": "2026-11-03T06:23:00"
+  },
+  {
+    "id": 28,
+    "pedidoId": 7,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-03T09:50:00"
+  },
+  {
+    "id": 29,
+    "pedidoId": 7,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Sofía Ríos",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-03T10:18:00"
+  },
+  {
+    "id": 30,
+    "pedidoId": 7,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-03T10:18:00"
+  },
+  {
+    "id": 31,
+    "pedidoId": 8,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-03T19:53:00"
+  },
+  {
+    "id": 32,
+    "pedidoId": 9,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-04T01:55:00"
+  },
+  {
+    "id": 33,
+    "pedidoId": 9,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Ana Torres",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-04T02:31:00"
+  },
+  {
+    "id": 34,
+    "pedidoId": 9,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-04T02:31:00"
+  },
+  {
+    "id": 35,
+    "pedidoId": 9,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "ASIGNADO",
+    "estadoNuevo": "EN_TRANSITO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 4,
+    "fechaHora": "2026-11-04T03:05:00"
+  },
+  {
+    "id": 36,
+    "pedidoId": 9,
+    "tipo": "UBICACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Ubicación reportada (4.639401, -74.069723)",
+    "usuarioId": 4,
+    "fechaHora": "2026-11-04T03:40:00"
+  },
+  {
+    "id": 37,
+    "pedidoId": 9,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "EN_TRANSITO",
+    "estadoNuevo": "ENTREGADO",
+    "descripcion": "Pedido entregado",
+    "usuarioId": 4,
+    "fechaHora": "2026-11-04T04:14:00"
+  },
+  {
+    "id": 38,
+    "pedidoId": 10,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-04T06:23:00"
+  },
+  {
+    "id": 39,
+    "pedidoId": 10,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Ana Torres",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-04T06:55:00"
+  },
+  {
+    "id": 40,
+    "pedidoId": 10,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-04T06:55:00"
+  },
+  {
+    "id": 41,
+    "pedidoId": 10,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "ASIGNADO",
+    "estadoNuevo": "EN_TRANSITO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 4,
+    "fechaHora": "2026-11-04T07:31:00"
+  },
+  {
+    "id": 42,
+    "pedidoId": 10,
+    "tipo": "UBICACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Ubicación reportada (4.627887, -74.090121)",
+    "usuarioId": 4,
+    "fechaHora": "2026-11-04T08:00:00"
+  },
+  {
+    "id": 43,
+    "pedidoId": 11,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-04T16:24:00"
+  },
+  {
+    "id": 44,
+    "pedidoId": 11,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Sofía Ríos",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-04T16:43:00"
+  },
+  {
+    "id": 45,
+    "pedidoId": 11,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-04T16:43:00"
+  },
+  {
+    "id": 46,
+    "pedidoId": 11,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "ASIGNADO",
+    "estadoNuevo": "EN_TRANSITO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 6,
+    "fechaHora": "2026-11-04T17:27:00"
+  },
+  {
+    "id": 47,
+    "pedidoId": 11,
+    "tipo": "UBICACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Ubicación reportada (4.711771, -74.03701)",
+    "usuarioId": 6,
+    "fechaHora": "2026-11-04T17:53:00"
+  },
+  {
+    "id": 48,
+    "pedidoId": 11,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "EN_TRANSITO",
+    "estadoNuevo": "ENTREGADO",
+    "descripcion": "Pedido entregado",
+    "usuarioId": 6,
+    "fechaHora": "2026-11-04T18:28:00"
+  },
+  {
+    "id": 49,
+    "pedidoId": 12,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-04T21:54:00"
+  },
+  {
+    "id": 50,
+    "pedidoId": 13,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-05T06:24:00"
+  },
+  {
+    "id": 51,
+    "pedidoId": 13,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Luis Mora",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-05T06:51:00"
+  },
+  {
+    "id": 52,
+    "pedidoId": 13,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-05T06:51:00"
+  },
+  {
+    "id": 53,
+    "pedidoId": 13,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "ASIGNADO",
+    "estadoNuevo": "EN_TRANSITO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 5,
+    "fechaHora": "2026-11-05T07:33:00"
+  },
+  {
+    "id": 54,
+    "pedidoId": 13,
+    "tipo": "UBICACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Ubicación reportada (4.646124, -74.061473)",
+    "usuarioId": 5,
+    "fechaHora": "2026-11-05T07:58:00"
+  },
+  {
+    "id": 55,
+    "pedidoId": 13,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "EN_TRANSITO",
+    "estadoNuevo": "ENTREGADO",
+    "descripcion": "Pedido entregado",
+    "usuarioId": 5,
+    "fechaHora": "2026-11-05T08:29:00"
+  },
+  {
+    "id": 56,
+    "pedidoId": 14,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-05T10:57:00"
+  },
+  {
+    "id": 57,
+    "pedidoId": 14,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Ana Torres",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-05T11:22:00"
+  },
+  {
+    "id": 58,
+    "pedidoId": 14,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-05T11:22:00"
+  },
+  {
+    "id": 59,
+    "pedidoId": 14,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "ASIGNADO",
+    "estadoNuevo": "EN_TRANSITO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 4,
+    "fechaHora": "2026-11-05T11:48:00"
+  },
+  {
+    "id": 60,
+    "pedidoId": 14,
+    "tipo": "UBICACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Ubicación reportada (4.612917, -74.111734)",
+    "usuarioId": 4,
+    "fechaHora": "2026-11-05T12:12:00"
+  },
+  {
+    "id": 61,
+    "pedidoId": 15,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-05T20:24:00"
+  },
+  {
+    "id": 62,
+    "pedidoId": 15,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Juan Pérez",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-05T21:00:00"
+  },
+  {
+    "id": 63,
+    "pedidoId": 15,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-05T21:00:00"
+  },
+  {
+    "id": 64,
+    "pedidoId": 16,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-06T03:46:00"
+  },
+  {
+    "id": 65,
+    "pedidoId": 16,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Ana Torres",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-06T04:24:00"
+  },
+  {
+    "id": 66,
+    "pedidoId": 16,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-06T04:24:00"
+  },
+  {
+    "id": 67,
+    "pedidoId": 16,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "ASIGNADO",
+    "estadoNuevo": "CANCELADO",
+    "descripcion": "Cancelado por solicitud del cliente",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-06T05:04:00"
+  },
+  {
+    "id": 68,
+    "pedidoId": 17,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-06T10:33:00"
+  },
+  {
+    "id": 69,
+    "pedidoId": 17,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Juan Pérez",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-06T11:04:00"
+  },
+  {
+    "id": 70,
+    "pedidoId": 17,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-06T11:04:00"
+  },
+  {
+    "id": 71,
+    "pedidoId": 17,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "ASIGNADO",
+    "estadoNuevo": "EN_TRANSITO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 3,
+    "fechaHora": "2026-11-06T11:31:00"
+  },
+  {
+    "id": 72,
+    "pedidoId": 17,
+    "tipo": "UBICACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Ubicación reportada (4.639326, -74.104953)",
+    "usuarioId": 3,
+    "fechaHora": "2026-11-06T11:58:00"
+  },
+  {
+    "id": 73,
+    "pedidoId": 17,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "EN_TRANSITO",
+    "estadoNuevo": "ENTREGADO",
+    "descripcion": "Pedido entregado",
+    "usuarioId": 3,
+    "fechaHora": "2026-11-06T12:41:00"
+  },
+  {
+    "id": 74,
+    "pedidoId": 18,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-06T16:58:00"
+  },
+  {
+    "id": 75,
+    "pedidoId": 19,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-06T22:23:00"
+  },
+  {
+    "id": 76,
+    "pedidoId": 19,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Ana Torres",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-06T22:42:00"
+  },
+  {
+    "id": 77,
+    "pedidoId": 19,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-06T22:42:00"
+  },
+  {
+    "id": 78,
+    "pedidoId": 20,
+    "tipo": "CREACION",
+    "estadoAnterior": null,
+    "estadoNuevo": "PENDIENTE",
+    "descripcion": "Pedido creado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-07T05:51:00"
+  },
+  {
+    "id": 79,
+    "pedidoId": 20,
+    "tipo": "ASIGNACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Asignado a Juan Pérez",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-07T06:21:00"
+  },
+  {
+    "id": 80,
+    "pedidoId": 20,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "PENDIENTE",
+    "estadoNuevo": "ASIGNADO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 2,
+    "fechaHora": "2026-11-07T06:21:00"
+  },
+  {
+    "id": 81,
+    "pedidoId": 20,
+    "tipo": "CAMBIO_ESTADO",
+    "estadoAnterior": "ASIGNADO",
+    "estadoNuevo": "EN_TRANSITO",
+    "descripcion": "Cambio de estado",
+    "usuarioId": 3,
+    "fechaHora": "2026-11-07T07:06:00"
+  },
+  {
+    "id": 82,
+    "pedidoId": 20,
+    "tipo": "UBICACION",
+    "estadoAnterior": null,
+    "estadoNuevo": null,
+    "descripcion": "Ubicación reportada (4.667079, -74.052985)",
+    "usuarioId": 3,
+    "fechaHora": "2026-11-07T07:27:00"
+  }
+]
