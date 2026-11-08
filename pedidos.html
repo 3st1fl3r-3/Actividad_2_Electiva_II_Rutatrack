@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pedidos · RutaTrack</title>
+  <link rel="icon" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar" id="topbar"></header>
+    <aside class="sidebar" id="sidebar"></aside>
+
+    <main class="contenido">
+      <div class="encabezado">
+        <div>
+          <h1>Pedidos</h1>
+          <p>Gestión y seguimiento de pedidos</p>
+        </div>
+        <a class="btn" href="pedido-form.html">+ Nuevo pedido</a>
+      </div>
+
+      <section class="kpis" id="kpis" aria-label="Pedidos por estado"></section>
+
+      <form class="tarjeta" id="form-filtros" style="margin-bottom:14px;padding:14px">
+        <div class="filtros">
+          <div class="campo">
+            <label for="texto">Buscar</label>
+            <input id="texto" name="texto" placeholder="Código, cliente o dirección">
+          </div>
+          <div class="campo">
+            <label for="estado">Estado</label>
+            <select id="estado" name="estado"><option value="">Todos</option></select>
+          </div>
+          <div class="campo">
+            <label for="repartidorId">Repartidor</label>
+            <select id="repartidorId" name="repartidorId"><option value="">Todos</option></select>
+          </div>
+          <div class="campo">
+            <label for="desde">Desde</label>
+            <input id="desde" name="desde" type="date">
+          </div>
+          <div class="campo">
+            <label for="hasta">Hasta</label>
+            <input id="hasta" name="hasta" type="date">
+            <div class="error"></div>
+          </div>
+          <div class="acciones">
+            <button class="btn" type="submit">Filtrar</button>
+            <button class="btn btn-sec" type="reset">Limpiar</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="tabla-contenedor">
+        <table class="responsive">
+          <thead>
+            <tr><th>Código</th><th>Cliente</th><th>Destino</th><th>Repartidor</th><th>Estado</th><th>Creado</th><th>Acciones</th></tr>
+          </thead>
+          <tbody id="tabla-pedidos"><tr><td colspan="7" class="cargando">Cargando pedidos…</td></tr></tbody>
+        </table>
+      </div>
+      <div class="paginacion" id="paginacion"></div>
+    </main>
+  </div>
+  <div id="toasts"></div>
+  <script type="module" src="js/pages/pedidos.js"></script>
+</body>
+</html>

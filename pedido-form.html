@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pedido · RutaTrack</title>
+  <link rel="icon" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar" id="topbar"></header>
+    <aside class="sidebar" id="sidebar"></aside>
+
+    <main class="contenido">
+      <div class="encabezado">
+        <div>
+          <h1 id="titulo">Nuevo pedido</h1>
+          <p>Los campos marcados con <span class="obligatorio">*</span> son obligatorios</p>
+        </div>
+        <a class="btn btn-sec" href="pedidos.html">← Volver</a>
+      </div>
+
+      <form class="tarjeta" id="form-pedido">
+        <div class="form-grid">
+          <div class="campo">
+            <label for="clienteId">Cliente <span class="obligatorio">*</span></label>
+            <select id="clienteId" name="clienteId"><option value="">Seleccione un cliente…</option></select>
+            <div class="error"></div>
+          </div>
+          <div class="campo">
+            <label for="telefonoContacto">Teléfono de contacto <span class="obligatorio">*</span></label>
+            <input id="telefonoContacto" name="telefonoContacto" inputmode="numeric" maxlength="10" placeholder="3001234567">
+            <div class="error"></div>
+          </div>
+          <div class="campo">
+            <label for="origen">Dirección de origen <span class="obligatorio">*</span></label>
+            <input id="origen" name="origen" value="Bodega Central – Cl 13 # 68-50, Bogotá">
+            <div class="error"></div>
+          </div>
+          <div class="campo">
+            <label for="destino">Dirección de destino <span class="obligatorio">*</span></label>
+            <input id="destino" name="destino" placeholder="Cra 15 # 93-40, Bogotá">
+            <div class="error"></div>
+          </div>
+          <div class="campo completo">
+            <label for="descripcion">Descripción del pedido <span class="obligatorio">*</span></label>
+            <textarea id="descripcion" name="descripcion" maxlength="300" placeholder="Contenido, cantidad y observaciones (ej. frágil)"></textarea>
+            <div class="ayuda"><span id="contador">0</span>/255 caracteres</div>
+            <div class="error"></div>
+          </div>
+          <div class="campo">
+            <label for="repartidorId">Repartidor (opcional)</label>
+            <select id="repartidorId" name="repartidorId"><option value="">Sin asignar</option></select>
+            <div class="ayuda">Solo aparecen repartidores disponibles con capacidad libre</div>
+            <div class="error"></div>
+          </div>
+          <div class="campo">
+            <label for="estadoActual">Estado</label>
+            <input id="estadoActual" value="Pendiente (automático)" readonly>
+          </div>
+        </div>
+        <div class="form-acciones">
+          <a class="btn btn-sec" href="pedidos.html">Cancelar</a>
+          <button class="btn" type="submit">Guardar pedido</button>
+        </div>
+      </form>
+    </main>
+  </div>
+  <div id="toasts"></div>
+  <script type="module" src="js/pages/pedido-form.js"></script>
+</body>
+</html>

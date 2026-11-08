@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Usuarios · RutaTrack</title>
+  <link rel="icon" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar" id="topbar"></header>
+    <aside class="sidebar" id="sidebar"></aside>
+
+    <main class="contenido">
+      <div class="encabezado">
+        <div>
+          <h1>Usuarios</h1>
+          <p>Registro de usuarios y asignación de roles (solo Administrador)</p>
+        </div>
+      </div>
+
+      <div class="detalle-grid" style="grid-template-columns:1.6fr 1fr;align-items:start">
+        <div class="tabla-contenedor">
+          <table class="responsive">
+            <thead><tr><th>Nombre</th><th>Correo</th><th>Rol</th><th>Estado</th><th>Acciones</th></tr></thead>
+            <tbody id="tabla-usuarios"><tr><td colspan="5" class="cargando">Cargando…</td></tr></tbody>
+          </table>
+        </div>
+
+        <form class="tarjeta" id="form-usuario">
+          <h2>Nuevo usuario</h2>
+          <div class="campo">
+            <label for="nombre">Nombre completo <span class="obligatorio">*</span></label>
+            <input id="nombre" name="nombre" maxlength="100">
+            <div class="error"></div>
+          </div>
+          <div class="campo">
+            <label for="email">Correo <span class="obligatorio">*</span></label>
+            <input id="email" name="email" type="email">
+            <div class="error"></div>
+          </div>
+          <div class="campo">
+            <label for="rol">Rol <span class="obligatorio">*</span></label>
+            <select id="rol" name="rol">
+              <option value="">Seleccione…</option>
+              <option value="ADMINISTRADOR">Administrador</option>
+              <option value="OPERADOR">Operador logístico</option>
+            </select>
+            <div class="ayuda">Los repartidores se registran desde la opción Repartidores</div>
+            <div class="error"></div>
+          </div>
+          <div class="campo">
+            <label for="password">Contraseña <span class="obligatorio">*</span></label>
+            <input id="password" name="password" type="password" autocomplete="new-password">
+            <div class="error"></div>
+          </div>
+          <div class="campo">
+            <label for="confirmar">Confirmar contraseña <span class="obligatorio">*</span></label>
+            <input id="confirmar" name="confirmar" type="password" autocomplete="new-password">
+            <div class="error"></div>
+          </div>
+          <div class="form-acciones">
+            <button class="btn btn-sec" type="reset">Limpiar</button>
+            <button class="btn" type="submit">Registrar usuario</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </div>
+  <div id="toasts"></div>
+  <script type="module" src="js/pages/usuarios.js"></script>
+</body>
+</html>

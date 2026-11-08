@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mis entregas · RutaTrack</title>
+  <link rel="icon" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar" id="topbar"></header>
+    <aside class="sidebar" id="sidebar"></aside>
+
+    <main class="contenido">
+      <div class="encabezado">
+        <div>
+          <h1>Mis entregas</h1>
+          <p id="resumen">Cargando…</p>
+        </div>
+        <label class="texto-suave" style="display:flex;gap:6px;align-items:center">
+          <input type="checkbox" id="ver-finalizados"> Mostrar entregados y cancelados
+        </label>
+      </div>
+      <div class="lista-tarjetas" id="lista"></div>
+    </main>
+  </div>
+  <div id="toasts"></div>
+  <script type="module" src="js/pages/mis-entregas.js"></script>
+</body>
+</html>

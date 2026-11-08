@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consultar pedido · RutaTrack</title>
+  <link rel="icon" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <main class="pagina-centrada">
+    <section class="tarjeta caja-seguimiento">
+      <div class="logo" style="text-align:center;margin-bottom:14px">
+        <strong style="font-size:1.6rem;color:var(--primario)">RutaTrack</strong>
+        <p class="texto-suave">Consulte el estado de su pedido</p>
+      </div>
+
+      <form id="form-seguimiento">
+        <div class="campo">
+          <label for="codigo">Código de seguimiento <span class="obligatorio">*</span></label>
+          <input id="codigo" name="codigo" placeholder="PED-00125" autocomplete="off" style="text-transform:uppercase">
+          <div class="error"></div>
+        </div>
+        <button class="btn btn-bloque" type="submit">Consultar</button>
+      </form>
+
+      <div id="resultado" style="margin-top:18px"></div>
+
+      <p class="texto-suave" style="text-align:center;margin-top:16px"><a href="login.html">← Volver al inicio de sesión</a></p>
+    </section>
+  </main>
+  <div id="toasts"></div>
+  <script type="module" src="js/pages/seguimiento.js"></script>
+</body>
+</html>

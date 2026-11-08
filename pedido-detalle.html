@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detalle del pedido · RutaTrack</title>
+  <link rel="icon" href="img/favicon.svg">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar" id="topbar"></header>
+    <aside class="sidebar" id="sidebar"></aside>
+
+    <main class="contenido">
+      <div class="encabezado">
+        <div>
+          <h1 id="titulo">Pedido</h1>
+          <p id="subtitulo"></p>
+        </div>
+        <div class="acciones">
+          <a class="btn btn-sec" id="btn-volver" href="pedidos.html">← Volver</a>
+          <a class="btn btn-sec oculto" id="btn-editar">Editar</a>
+        </div>
+      </div>
+
+      <div id="contenido-detalle" class="cargando">Cargando pedido…</div>
+    </main>
+  </div>
+  <div id="toasts"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script type="module" src="js/pages/pedido-detalle.js"></script>
+</body>
+</html>

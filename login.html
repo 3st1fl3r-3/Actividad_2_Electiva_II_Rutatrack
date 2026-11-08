@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iniciar sesión · RutaTrack</title>
+  <link rel="icon" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <main class="pagina-centrada">
+    <section class="tarjeta caja-login">
+      <div class="logo">
+        <strong>RutaTrack</strong>
+        <span class="texto-suave">Seguimiento de pedidos y rutas</span>
+      </div>
+
+      <div id="aviso" class="aviso error oculto" role="alert"></div>
+
+      <form id="form-login">
+        <div class="campo">
+          <label for="email">Correo electrónico <span class="obligatorio">*</span></label>
+          <input id="email" name="email" type="email" autocomplete="username" placeholder="nombre@dominio.com">
+          <div class="error"></div>
+        </div>
+        <div class="campo">
+          <label for="password">Contraseña <span class="obligatorio">*</span></label>
+          <input id="password" name="password" type="password" autocomplete="current-password">
+          <div class="error"></div>
+        </div>
+        <button class="btn btn-bloque" type="submit">Iniciar sesión</button>
+      </form>
+
+      <p class="texto-suave" style="text-align:center;margin-top:14px">
+        ¿Es cliente? <a href="seguimiento.html">Consulte su pedido con el código de seguimiento</a>
+      </p>
+
+      <div class="demo">
+        <b>Usuarios de prueba</b> (clic para llenar):<br>
+        <button class="btn-link" data-email="admin@rutatrack.com" data-pass="Admin123">Administrador</button> ·
+        <button class="btn-link" data-email="operador@rutatrack.com" data-pass="Operador123">Operador</button> ·
+        <button class="btn-link" data-email="juan@rutatrack.com" data-pass="Repartidor123">Repartidor</button>
+      </div>
+    </section>
+  </main>
+  <div id="toasts"></div>
+  <script type="module" src="js/pages/login.js"></script>
+</body>
+</html>
